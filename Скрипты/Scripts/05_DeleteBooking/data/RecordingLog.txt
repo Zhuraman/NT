@@ -1,0 +1,20 @@
+[Network Analyzer (2f80:2e84)]   (Sid:262) Connection Terminated (by Server)
+[Network Analyzer (2f80: 734)] Address lookup for DESKTOP-6QU2V8T = 192.168.0.8
+[Network Analyzer (2f80: 734)] Request Connection: Remote Server @ 155.138.162.75:22222   (Service=)  (Sid=267)  PROXIED!
+[Network Analyzer (2f80: 734)] Address lookup for DESKTOP-6QU2V8T = 192.168.0.8
+[Network Analyzer (2f80: 734)] Request Connection: Remote Server @ 167.99.238.168:22222   (Service=)  (Sid=268)  PROXIED!
+[Network Analyzer (2f80:2f50)]   (Sid:267) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f80:2e84)]   (Sid:253) Connection Terminated (by Server)
+[Network Analyzer (2f80:2e84)]   (Sid:254) Connection Terminated (by Server)
+[Network Analyzer (2f80: 734)] Address lookup for DESKTOP-6QU2V8T = 192.168.0.8
+[Network Analyzer (2f80: 734)] Request Connection: Remote Server @ 140.82.4.96:22222   (Service=)  (Sid=269)  PROXIED!
+[Network Analyzer (2f80:14bc)]   (Sid:268) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f80:2e84)]   (Sid:185) Connection Terminated (by Server)
+[Network Analyzer (2f80: b94)]   (Sid:269) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f80: 734)] Address lookup for DESKTOP-6QU2V8T = 192.168.0.8
+[Network Analyzer (2f80: 734)] Request Connection: Remote Server @ 136.244.70.245:22222   (Service=)  (Sid=270)  PROXIED!
+[Network Analyzer (2f80: 734)] Address lookup for DESKTOP-6QU2V8T = 192.168.0.8
+[Network Analyzer (2f80:2e84)]   (Sid:259) Connection Terminated (by Server)
+[Network Analyzer (2f80: 734)] Request Connection: Remote Server @ 34.93.15.64:443   (Service=)  (Sid=271)  PROXIED!
+[Network Analyzer (2f80:1170)]   (Sid:270) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES128-GCM-SHA256)
+[Network Analyzer (2f80: 734)] Address lookup for DESKTOP-6QU2V8T = 192.168.0.8

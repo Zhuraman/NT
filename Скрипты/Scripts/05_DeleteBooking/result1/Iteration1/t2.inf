@@ -1,0 +1,16 @@
+[t2]
+SnapshotXmlFile=snapshot_2.xml
+ContentType=text/html
+StepName=Submit Data: login.pl
+Total=2
+FileName1=t2.html
+FileName2=t1_0_mer_login.gif
+RequestHeaderFile=t2_RequestHeader.txt
+SaveSnapshotResources=1
+ResponseHeaderFile=t2_ResponseHeader.txt
+RawStepEndTime=1661686004575
+RawStepName=login.pl
+RequestBodyFile=t2_RequestBody.txt
+RawStepStartTime=1661686004483
+URL1=http://localhost:1080/cgi-bin/login.pl
+URL2=http://localhost:1080/WebTours/images/mer_login.gif
