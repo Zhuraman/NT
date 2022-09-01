@@ -1,9 +1,0 @@
-[t46]
-FileName1=t46.htm
-URL1=https://www.wikipedia.org/
-Total=1
-RequestHeaderFile=t46_RequestHeader.txt
-RequestBodyFile=NONE
-ResponseHeaderFile=t46_ResponseHeader.txt
-ContentType=text/html
-SnapshotXmlFile=snapshot_46.xml

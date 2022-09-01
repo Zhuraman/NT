@@ -1,2 +1,0 @@
-"outboundFlight=052%3B487%3B08%2F29%2F2022&numPassengers=1&advanceDiscount=0&seatType=First&sea"
-"tPref=None&reserveFlights.x=49&reserveFlights.y=10"
