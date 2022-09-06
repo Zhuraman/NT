@@ -1,0 +1,37 @@
+[t4]
+RequestBodyFile=t4_RequestBody.txt
+URL10=http://localhost:1080/WebTours/images/in_home.gif
+URL11=http://localhost:1080/WebTours/images/mer_login.gif
+SaveSnapshotResources=1
+FileName11=t2_8_mer_login.gif
+FileName10=t3_10_in_home.gif
+RequestHeaderFile=t4_RequestHeader.txt
+RawStepStartTime=1662290469868
+ContentType=text/html
+RawStepName=Search Flights Button
+FrameIndex2=0.0
+FrameIndex3=0.1
+ResponseHeaderFile=t4_ResponseHeader.txt
+RawStepEndTime=1662290470012
+UseFrameIndex=1
+SnapshotXmlFile=snapshot_3.xml
+Total=11
+URL1=http://localhost:1080/cgi-bin/welcome.pl?page=search
+URL2=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights
+URL3=http://localhost:1080/cgi-bin/reservations.pl?page=welcome
+URL4=http://localhost:1080/WebTours/images/button_next.gif
+URL5=http://localhost:1080/WebTours/images/in_flights.gif
+FileName1=t4.html
+URL6=http://localhost:1080/WebTours/images/home.gif
+URL7=http://localhost:1080/WebTours/images/itinerary.gif
+FileName3=t4f1.html
+URL8=http://localhost:1080/WebTours/images/signoff.gif
+URL9=http://localhost:1080/WebTours/images/flights.gif
+FileName2=t4f0.html
+FileName5=t4_14_in_flights.gif
+FileName4=t4_15_button_next.gif
+FileName7=t3_12_itinerary.gif
+FileName6=t4_13_home.gif
+FileName9=t3_9_flights.gif
+FileName8=t3_11_signoff.gif
+StepName=Url: Search Flights Button

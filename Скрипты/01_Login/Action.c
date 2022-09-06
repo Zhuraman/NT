@@ -118,6 +118,28 @@ Action()
 		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
+	
+	lr_start_transaction("click_flights");
+
+	web_revert_auto_header("Sec-Fetch-User");
+
+	lr_think_time(5);
+	
+	web_reg_find("Fail=NotFound",
+		"Text/IC=Departure Date Applet",
+		LAST);
+
+	web_url("Search Flights Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("click_flights",LR_AUTO);
 
 	lr_start_transaction("logout");
 

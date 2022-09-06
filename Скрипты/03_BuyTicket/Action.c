@@ -243,6 +243,28 @@ Action()
 		LAST);
 
 	lr_end_transaction("buy_ticket",LR_AUTO);
+	
+	lr_start_transaction("click_Itinerary");
+
+	web_revert_auto_header("Sec-Fetch-User");
+
+	lr_think_time(5);
+	
+	web_reg_find("Fail=NotFound",
+		"Text=Itinerary",
+		LAST);
+
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
+		LAST);
+
+	lr_end_transaction("click_Itinerary",LR_AUTO);
 
 	lr_start_transaction("logout");
 

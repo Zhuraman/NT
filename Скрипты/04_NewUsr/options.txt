@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AZ\Desktop\NT\Скрипты\04_NewUsr
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\az\desktop\nt\скрипты\04_newusr\\logfile.log
+c:\users\az\desktop\nt\скрипты\04_newusr\\combined_04_NewUsr.c
+c:\users\az\desktop\nt\скрипты\04_newusr\\pre_cci.c

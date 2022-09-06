@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1662463227490
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1662463232762
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1662463238009
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t5.inf",
+                "time": 1662463243225
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t6.inf",
+                "time": 1662463248368
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t7.inf",
+                "time": 1662463253569
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t8.inf",
+                "time": 1662463258840
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t9.inf",
+                "time": 1662463264077
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_home_page",
+                "rawStartTime": 1662463227168,
+                "rawEndTime": 1662463227496,
+                "thinkTime": 0.0,
+                "wastedTime": 0.020694732666015626
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1662463227512,
+                "rawEndTime": 1662463232766,
+                "thinkTime": 5.004056,
+                "wastedTime": 0.016952991485595704
+            },
+            {
+                "transactionName": "click_flights",
+                "rawStartTime": 1662463232797,
+                "rawEndTime": 1662463238021,
+                "thinkTime": 5.004603,
+                "wastedTime": 0.013405799865722657
+            },
+            {
+                "transactionName": "find_ticket",
+                "rawStartTime": 1662463238037,
+                "rawEndTime": 1662463243229,
+                "thinkTime": 5.003967,
+                "wastedTime": 0.009313344955444336
+            },
+            {
+                "transactionName": "choice_ticket",
+                "rawStartTime": 1662463248260,
+                "rawEndTime": 1662463248385,
+                "thinkTime": 0.0,
+                "wastedTime": 0.009224653244018555
+            },
+            {
+                "transactionName": "buy_ticket",
+                "rawStartTime": 1662463253417,
+                "rawEndTime": 1662463253573,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01157236099243164
+            },
+            {
+                "transactionName": "click_Itinerary",
+                "rawStartTime": 1662463253589,
+                "rawEndTime": 1662463258852,
+                "thinkTime": 5.012704,
+                "wastedTime": 0.012992382049560547
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1662463258868,
+                "rawEndTime": 1662463264082,
+                "thinkTime": 5.011216,
+                "wastedTime": 0.014832496643066407
+            },
+            {
+                "transactionName": "03_BuyTicket",
+                "rawStartTime": 1662463227153,
+                "rawEndTime": 1662463264098,
+                "thinkTime": 35.036539999999998,
+                "wastedTime": 0.10898876190185547
+            }
+        ]
+    }
+]

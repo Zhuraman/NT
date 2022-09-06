@@ -1,4 +1,4 @@
-# 1 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c"
+# 1 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c"
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/lrun.h" 1
  
  
@@ -968,7 +968,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
+# 1 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
 
 # 1 "C:\\Program Files (x86)\\Micro Focus\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1136,7 +1136,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
+# 2 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
 
 # 1 "globals.h" 1
 
@@ -2606,18 +2606,20 @@ long WebSocketReceiveLen0   = sizeof(WebSocketReceive0) - 1;
  
 
 
-# 3 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
+# 3 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
+# 4 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
+	
+	 
 	
 	 
 
@@ -2711,7 +2713,10 @@ Action()
 		"Name=JSFormSubmit", "Value=off", "ENDITEM",
 		"LAST");
 	
-	
+	web_reg_save_param("flightID",
+		"LB=flightID\" value=\"",
+		"RB=\"",
+		"LAST");
 
 	lr_end_transaction("login",2);
 
@@ -2719,7 +2724,7 @@ Action()
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	web_reg_find("Fail=NotFound",
 		"Text=Itinerary",
@@ -2752,6 +2757,12 @@ Action()
 	web_websocket_close("ID=0", 
 		"Code=1000", 
 		"LAST");
+		
+	web_reg_find("Fail=Found",
+		"Text=flightID",
+		"LAST");
+
+	
 
 	lr_end_transaction("click_Itinerary",2);
 
@@ -2786,7 +2797,9 @@ Action()
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t10.inf", 
 		"ITEMDATA", 
-		"Name=1", "Value=on", "ENDITEM",  
+		"Name=1", "Value=on", "ENDITEM",
+        "Name=removeFlights.x", "Value=68", "ENDITEM",
+		"Name=removeFlights.y", "Value=5", "ENDITEM",		
 		"LAST");
 
 	lr_end_transaction("delete_booking",2);
@@ -2799,7 +2812,7 @@ Action()
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=A Session ID has been created and loaded into a cookie called MSO",
@@ -2832,12 +2845,12 @@ Action()
 
 	return 0;
 }
-# 5 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
+# 5 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\az\\documents\\vugen\\scripts\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
+# 6 "c:\\users\\az\\desktop\\nt\\\361\352\360\350\357\362\373\\05_deletebooking\\\\combined_05_DeleteBooking.c" 2
 

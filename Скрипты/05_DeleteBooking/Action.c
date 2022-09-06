@@ -1,6 +1,8 @@
 Action()
 {
 	
+	//lr_save_string("flightID", "name");
+	
 	/*Possible OAUTH authorization was detected. It is recommended to correlate the authorization parameters.*/
 
 	lr_start_transaction("05_DeleteBooking");
@@ -93,7 +95,10 @@ Action()
 		"Name=JSFormSubmit", "Value=off", ENDITEM,
 		LAST);
 	
-	
+	web_reg_save_param("flightID",
+		"LB=flightID\" value=\"",
+		"RB=\"",
+		LAST);
 
 	lr_end_transaction("login",LR_AUTO);
 
@@ -101,7 +106,7 @@ Action()
 
 	web_revert_auto_header("Sec-Fetch-User");
 
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	web_reg_find("Fail=NotFound",
 		"Text=Itinerary",
@@ -134,6 +139,12 @@ Action()
 	web_websocket_close("ID=0", 
 		"Code=1000", 
 		LAST);
+		
+	web_reg_find("Fail=Found",
+		"Text=flightID",
+		LAST);
+
+	
 
 	lr_end_transaction("click_Itinerary",LR_AUTO);
 
@@ -168,7 +179,9 @@ Action()
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t10.inf", 
 		ITEMDATA, 
-		"Name=1", "Value=on", ENDITEM,  
+		"Name=1", "Value=on", ENDITEM,
+        "Name=removeFlights.x", "Value=68", ENDITEM,
+		"Name=removeFlights.y", "Value=5", ENDITEM,		
 		LAST);
 
 	lr_end_transaction("delete_booking",LR_AUTO);
@@ -181,7 +194,7 @@ Action()
 
 	web_revert_auto_header("Sec-Fetch-User");
 
-	lr_think_time(6);
+	lr_think_time(5);
 	
 	web_reg_find("Fail=NotFound",
 		"Text/IC=A Session ID has been created and loaded into a cookie called MSO",
