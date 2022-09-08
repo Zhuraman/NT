@@ -3124,18 +3124,18 @@ Action()
 
 	lr_end_transaction("login",2);
 	
-	lr_start_transaction("click_flights");
+	lr_start_transaction("click_Itinerary");
 
 	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
 
 	lr_think_time(5);
 	
 	web_reg_find("Fail=NotFound",
-		"Text/IC=Departure Date Applet",
+		"Text=Itinerary",
 		"LAST");
 
-	web_url("Search Flights Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+	web_url("Itinerary Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=itinerary", 
 		"TargetFrame=body", 
 		"Resource=0", 
 		"RecContentType=text/html", 
@@ -3144,7 +3144,7 @@ Action()
 		"Mode=HTML", 
 		"LAST");
 
-	lr_end_transaction("click_flights",2);
+	lr_end_transaction("click_Itinerary",2);
 
 	lr_start_transaction("logout");
 

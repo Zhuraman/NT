@@ -1,4 +1,0 @@
-"firstName=Harry&lastName=Bishop&address1=Obama+street&address2=Concord&pass1=Harry+Bishop&cred"
-"itCard=1111222233334444&expDate=12%2F22&oldCCOption=&numPassengers=1&seatType=Coach&seatPref=N"
-"one&outboundFlight=270%3B565%3B09%2F06%2F2022&advanceDiscount=0&returnFlight=&JSFormSubmit=off"
-"&buyFlights.x=70&buyFlights.y=9&.cgifields=saveCC"

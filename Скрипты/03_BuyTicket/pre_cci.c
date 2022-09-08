@@ -2883,29 +2883,6 @@ Action()
 
 	lr_end_transaction("click_Itinerary",2);
 
-	lr_start_transaction("logout");
-
-	(web_remove_auto_header("Origin", "ImplicitGen=Yes", "LAST"));
-
-	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
-
-	lr_think_time(5);
-	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=A Session ID has been created and loaded into a cookie called MSO",
-		"LAST");
-
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		"LAST");
-
-	lr_end_transaction("logout",2);
 	
 	lr_end_transaction("03_BuyTicket",2);
 

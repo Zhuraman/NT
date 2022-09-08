@@ -54,7 +54,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="01_login__*delimiter*__open_home_page__*delimiter*__login__*delimiter*__click_flights__*delimiter*__logout"
+Order="01_login__*delimiter*__open_home_page__*delimiter*__login__*delimiter*__logout__*delimiter*__click_Itinerary"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,7 +64,7 @@ ActiveRunName=result1
 01_login=
 open_home_page=
 login=
-click_flights=
 logout=
+click_Itinerary=
 [ExtraFilesToParse]
 WebSocketCB.c=

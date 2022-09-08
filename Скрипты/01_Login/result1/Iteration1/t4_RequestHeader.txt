@@ -1,4 +1,4 @@
-GET /cgi-bin/welcome.pl?page=search HTTP/1.1
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
 Referer: http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home
 Sec-Fetch-Dest: frame
 Sec-Fetch-Mode: navigate
@@ -13,5 +13,5 @@ Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
 Accept: */*
 Connection: Keep-Alive
 Host: localhost:1080
-Cookie: MSO=SID&1662289897; MTUserInfo=firstName&Oliver&address2&Buffalo&username&Oliver&hash&82&lastName&Abramson%0A&address1&Fire%20street&creditCard&&expDate&%0A
+Cookie: MSO=SID&1662624390; MTUserInfo=firstName&Oliver&address2&Buffalo&username&Oliver&hash&82&lastName&Abramson%0A&address1&Fire%20street&creditCard&&expDate&%0A
 

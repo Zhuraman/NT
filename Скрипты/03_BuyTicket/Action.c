@@ -266,29 +266,6 @@ Action()
 
 	lr_end_transaction("click_Itinerary",LR_AUTO);
 
-	lr_start_transaction("logout");
-
-	web_revert_auto_header("Origin");
-
-	web_revert_auto_header("Sec-Fetch-User");
-
-	lr_think_time(5);
-	
-	web_reg_find("Fail=NotFound",
-		"Text/IC=A Session ID has been created and loaded into a cookie called MSO",
-		LAST);
-
-	web_url("SignOff Button", 
-		"URL=http://localhost:1080/cgi-bin/welcome.pl?signOff=1", 
-		"TargetFrame=body", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights", 
-		"Snapshot=t7.inf", 
-		"Mode=HTML", 
-		LAST);
-
-	lr_end_transaction("logout",LR_AUTO);
 	
 	lr_end_transaction("03_BuyTicket",LR_AUTO);
 
