@@ -2742,6 +2742,104 @@ Action()
 		"LAST");
 
 	lr_end_transaction("welcome_new_usr",2);
+	
+	lr_start_transaction("click_flights");
+
+	(web_remove_auto_header("Sec-Fetch-User", "ImplicitGen=Yes", "LAST"));
+
+	lr_think_time(5);
+	
+	web_reg_find("Fail=NotFound",
+		"Text/IC=Departure Date Applet",
+		"LAST");
+
+	web_url("Search Flights Button", 
+		"URL=http://localhost:1080/cgi-bin/welcome.pl?page=search", 
+		"TargetFrame=body", 
+		"Resource=0", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home", 
+		"Snapshot=t3.inf", 
+		"Mode=HTML", 
+		"LAST");
+
+	lr_end_transaction("click_flights",2);
+
+	lr_start_transaction("find_ticket");
+
+	web_add_auto_header("Origin", 
+		"http://localhost:1080");
+
+	web_add_auto_header("Sec-Fetch-User", 
+		"?1");
+
+	lr_think_time(5);
+	
+	web_reg_save_param("outboundFlight",
+		"LB=outboundFlight\" value=\"",
+		"RB=\"",
+		"LAST");
+	
+	web_reg_find("Fail=NotFound",
+		"Text=Find Flight",
+		"LAST");
+	
+	web_reg_find("Text/IC=Flight departing from <b>{depart}</b> to <b>{arrive}</b> on <b>{departDate}</b>",
+		"LAST");
+
+	web_submit_data("reservations.pl", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl?page=welcome", 
+		"Snapshot=t4.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=advanceDiscount", "Value=0", "ENDITEM", 
+		"Name=depart", "Value={depart}", "ENDITEM", 
+		"Name=departDate", "Value={departDate}", "ENDITEM", 
+		"Name=arrive", "Value={arrive}", "ENDITEM", 
+		"Name=returnDate", "Value={returnDate}", "ENDITEM", 
+		"Name=numPassengers", "Value=1", "ENDITEM", 
+		"Name=seatPref", "Value={seatPref}", "ENDITEM", 
+		"Name=seatType", "Value={seatType}", "ENDITEM", 
+		"Name=findFlights.x", "Value=53", "ENDITEM", 
+		"Name=findFlights.y", "Value=10", "ENDITEM", 
+		"Name=.cgifields", "Value=roundtrip", "ENDITEM", 
+		"Name=.cgifields", "Value=seatType", "ENDITEM", 
+		"Name=.cgifields", "Value=seatPref", "ENDITEM", 
+		"LAST");
+
+	lr_end_transaction("find_ticket",2);
+
+	lr_think_time(5);
+
+	lr_start_transaction("choice_ticket");
+	
+	web_reg_find("Fail=NotFound",
+		"Text=Payment Details",
+		"LAST");
+
+	web_submit_data("reservations.pl_2", 
+		"Action=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Method=POST", 
+		"TargetFrame=", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost:1080/cgi-bin/reservations.pl", 
+		"Snapshot=t5.inf", 
+		"Mode=HTML", 
+		"ITEMDATA", 
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM", 
+		"Name=numPassengers", "Value=1", "ENDITEM", 
+		"Name=advanceDiscount", "Value=0", "ENDITEM", 
+		"Name=seatType", "Value={seatType}", "ENDITEM", 
+		"Name=seatPref", "Value={seatPref}", "ENDITEM", 
+		"Name=reserveFlights.x", "Value=49", "ENDITEM", 
+		"Name=reserveFlights.y", "Value=10", "ENDITEM", 
+		"LAST");
+
+	lr_end_transaction("choice_ticket",2);
 
 	lr_start_transaction("logout");
 

@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Frankfurt&departDate=09%2F04%2F2022&arrive=San+Francisco&returnDate=0"
-"9%2F07%2F2022&numPassengers=1&seatPref=None&seatType=First&findFlights.x=53&findFlights.y=10&."
-"cgifields=roundtrip&.cgifields=seatType&.cgifields=seatPref"

@@ -18,14 +18,25 @@
     <FileEntry Name="04_NewUsr.c.pickle" Filter="1" />
     <FileEntry Name="04_NewUsr.ci" Filter="1" />
     <FileEntry Name="04_NewUsr.prm.bak" Filter="1" />
+    <FileEntry Name="108393485440.idx" Filter="1" />
+    <FileEntry Name="113808411440.idx" Filter="1" />
+    <FileEntry Name="123659565440.idx" Filter="1" />
+    <FileEntry Name="131483895440.idx" Filter="1" />
+    <FileEntry Name="155171318440.idx" Filter="1" />
+    <FileEntry Name="162269933440.idx" Filter="1" />
+    <FileEntry Name="209224416440.idx" Filter="1" />
     <FileEntry Name="229042215440.idx" Filter="1" />
     <FileEntry Name="257672151440.idx" Filter="1" />
     <FileEntry Name="262566076440.idx" Filter="1" />
     <FileEntry Name="31150160440.idx" Filter="1" />
+    <FileEntry Name="60535196440.idx" Filter="1" />
+    <FileEntry Name="86741272440.idx" Filter="1" />
+    <FileEntry Name="arrive.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
+    <FileEntry Name="depart.dat" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
@@ -41,6 +52,8 @@
     <FileEntry Name="Random.dat" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="seatPref.dat" Filter="1" />
+    <FileEntry Name="seatType.dat" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />

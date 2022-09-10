@@ -52,7 +52,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="04_NewUsr__*delimiter*__open_home_page__*delimiter*__click_sign_up_now__*delimiter*__data_usr__*delimiter*__welcome_new_usr__*delimiter*__logout"
+Order="04_NewUsr__*delimiter*__open_home_page__*delimiter*__click_sign_up_now__*delimiter*__data_usr__*delimiter*__welcome_new_usr__*delimiter*__click_flights__*delimiter*__find_ticket__*delimiter*__choice_ticket__*delimiter*__logout"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
@@ -64,4 +64,7 @@ open_home_page=
 click_sign_up_now=
 data_usr=
 welcome_new_usr=
+click_flights=
+find_ticket=
+choice_ticket=
 logout=
