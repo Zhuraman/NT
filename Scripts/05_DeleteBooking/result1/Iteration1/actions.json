@@ -1,0 +1,81 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1663073636779
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1663073637219
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t5.inf",
+                "time": 1663073637623
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Form: itinerary.pl",
+                "infFile": "t6.inf",
+                "time": 1663073638005
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t7.inf",
+                "time": 1663073638266
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_home_page",
+                "rawStartTime": 1663073636030,
+                "rawEndTime": 1663073636795,
+                "thinkTime": 0.0,
+                "wastedTime": 0.24571967124938966
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1663073636811,
+                "rawEndTime": 1663073637248,
+                "thinkTime": 0.0,
+                "wastedTime": 0.018560409545898439
+            },
+            {
+                "transactionName": "click_Itinerary",
+                "rawStartTime": 1663073637264,
+                "rawEndTime": 1663073637654,
+                "thinkTime": 0.0,
+                "wastedTime": 0.019387245178222657
+            },
+            {
+                "transactionName": "delete_booking",
+                "rawStartTime": 1663073637685,
+                "rawEndTime": 1663073638014,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010271310806274414
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1663073638029,
+                "rawEndTime": 1663073638310,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010086774826049805
+            },
+            {
+                "transactionName": "05_DeleteBooking",
+                "rawStartTime": 1663073636014,
+                "rawEndTime": 1663073638326,
+                "thinkTime": 0.0,
+                "wastedTime": 0.30402541160583498
+            }
+        ]
+    }
+]

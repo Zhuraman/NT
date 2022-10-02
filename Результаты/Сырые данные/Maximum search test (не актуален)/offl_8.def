@@ -1,0 +1,18 @@
+[Graph definition]
+count=1
+GraphTitle=% использования (Файл подкачки \??\C:\pagefile.sys)
+DataPointLabel_1=offline_datapoint_8
+LineTitle_1=localhost
+LineGroup_1=0
+YAxisTitle=% использования (Файл подкачки \??\C:\pagefile.sys)
+GraphGroupMenuTitle=Windows Resources
+XAxisTitle=Elapsed Scenario Time (seconds)
+XAxisIsElapsedTime=TRUE
+LineType=NOSTEP
+BuildUnderLoadGraph=TRUE
+AggregateFunction=AVG
+MissingData=PREVIOUS
+GranularityMode=NOTINCLUDEZERO
+NoDataBehavior=RemoveGraph
+GraphType=es_rm_svr_res_nt
+DataPointDescr_1=Процент использования файла подкачки (страничного файла) в настоящий момент. См. также 'Процесс\\Байт файла подкачки'.

@@ -1,0 +1,9 @@
+[t15]
+FileName1=t15.htm
+URL1=https://www.wikipedia.org/
+Total=1
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml

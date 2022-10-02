@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\AZ\Desktop\NT\Скрипты\01_FindTicket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\az\desktop\nt\скрипты\01_findticket\\logfile.log
+c:\users\az\desktop\nt\скрипты\01_findticket\\combined_01_FindTicket.c
+c:\users\az\desktop\nt\скрипты\01_findticket\\pre_cci.c

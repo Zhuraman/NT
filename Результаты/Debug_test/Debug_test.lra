@@ -1,0 +1,99 @@
+﻿[Workspace]
+SessionStartTime=0
+SessionEndTime=1460
+VerNo=13
+IsSummaryData=0
+TimeFormat=0
+SesLang=RUS
+ABuild=0
+DataBaseName=resl9688945DB
+DBType=1
+CurrServer=DESKTOP-6QU2V8T
+CurrUser=sa
+CurrPswd===
+StorageLoc=\\DESKTOP-6QU2V8T\Data\
+PhStorageLoc=C:\MSSQL7\Data
+LocStorageLoc=
+LocPhStorageLoc=
+WinIntSec=0
+UseNetworkMode=0
+UseParallel=1
+UseManagedIndexes=1
+UseSpecMSSQLParams=1
+NumResults=1
+
+[Data Config]
+CollectionMode=2
+IngnoreFlds=Vuser ID
+IngnoreUIFlds=VuserID
+AggSecGran=1
+TransAgg=1
+DataPointAgg=1
+WebAgg=1
+MonAgg=0
+ErrAgg=0
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+
+[Result0]
+LRRID=
+ResultPath=C:\Users\AZ\AppData\Local\Temp\res\res.lrr
+ResultTDPath=
+NumFilters=1
+ScenarioTimeZone=-10800
+DaylightSavingSecsAddition=0
+ScenarioStartTime=1663162617
+ScenarioEndTime=1663164077
+ResInSD=0
+WebGran=5
+FilterEdge=0
+FSartTime=0
+FEndTime=0
+TDTestID=-1
+TDRunID=-1
+IsProTuneResult=0
+GraphScale=0
+Scenario Type=Manual
+Schedule Name=Schedule 1
+Mode=Scenario Scheduling
+Load Behavior=Initialize each Vuser just before it runs
+Scenario Duration=Start 10 Vusers: 1 every 00:00:10 (HH:MM:SS); Run for 00:22:00 (HH:MM:SS); Stop all Vusers: 1 every 00:00:05 (HH:MM:SS)
+NumGraphs=5
+
+[Result0_GLOBALFILTER0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=17
+UseEscapeSequence=1
+DimCount=17
+Dim_0=01_FindTicket
+Dim_1=02_Login
+Dim_2=03_BuyTicket
+Dim_3=04_NewUsr_plus_find_ticket
+Dim_4=05_DeleteBooking
+Dim_5=buy_ticket
+Dim_6=choice_ticket
+Dim_7=click_flights
+Dim_8=click_Itinerary
+Dim_9=click_sign_up_now
+Dim_10=data_usr
+Dim_11=delete_booking
+Dim_12=find_ticket
+Dim_13=login
+Dim_14=logout
+Dim_15=open_home_page
+Dim_16=welcome_new_usr
+LikeMode=0
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!
+

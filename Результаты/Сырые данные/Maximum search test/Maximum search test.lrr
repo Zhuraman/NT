@@ -1,0 +1,49 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2021.0.0.0
+Path=C:\Users\AZ\Desktop\NT\Scenario\Maximum_search_test_confirmation.lrs
+Subject=Maximum_search_test
+Result_file=C:\Users\AZ\Desktop\NT\Результаты\Maximum search test\Maximum search test.lrr
+Description=
+ResultName=Maximum search test
+Time_Zone=-10800
+Start_time=1663952362
+Daylight_Bias=0
+Stop_time=1663956471
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 36 Vusers: 1 every 00:00:10 (HH:MM:SS); Run for 01:02:00 (HH:MM:SS); Stop all Vusers simultaneously
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST36_1E10;R3720;SP36;
+
+[Scripts]
+03_BuyTicket=C:\Users\AZ\Desktop\NT\Scripts\03_BuyTicket\03_BuyTicket.usr
+04_NewUsr_plus_find_ticket=C:\Users\AZ\Desktop\NT\Scripts\04_NewUsr_plus_find_ticket\04_NewUsr_plus_find_ticket.usr
+01_FindTicket=C:\Users\AZ\Desktop\NT\Scripts\01_FindTicket\01_FindTicket.usr
+02_Login=C:\Users\AZ\Desktop\NT\Scripts\02_Login\02_Login.usr
+05_DeleteBooking=C:\Users\AZ\Desktop\NT\Scripts\05_DeleteBooking\05_DeleteBooking.usr
+
+[Scripts_types]
+03_BuyTicket=Multi+QTWeb
+04_NewUsr_plus_find_ticket=Multi+QTWeb
+01_FindTicket=Multi+QTWeb
+02_Login=Multi+QTWeb
+05_DeleteBooking=Multi+QTWeb
+

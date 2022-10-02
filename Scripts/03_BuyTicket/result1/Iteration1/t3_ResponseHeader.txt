@@ -1,0 +1,10 @@
+HTTP/1.1 200 OK
+Date: Thu, 08 Sep 2022 08:04:40 GMT
+Server: Apache/2.2.21 (Win32)
+Expires: 5s
+Set-Cookie: MTUserInfo=firstName&Charley&address2&Frisco&username&Charley&hash&89&lastName&Mason%0A&address1&Liberty%20street&creditCard&&expDate&%0A; path=/
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html; charset=ISO-8859-1
+

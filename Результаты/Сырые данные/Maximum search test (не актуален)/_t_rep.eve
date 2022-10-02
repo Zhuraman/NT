@@ -1,0 +1,253 @@
+28 11 1663510874 2 178784464 1127372675 1699572
+28 4 01_FindTicket 5 1663510875 0 01_FindTicket localhost 0 1
+28 10 localhost 28 0 0
+28 4 01_FindTicket 10 1663510875 0 01_FindTicket localhost 0 1
+28 4 03_BuyTicket 5 1663510875 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 6 1663510875 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 15 1663510875 0 03_BuyTicket localhost 0 1
+28 0 01_FindTicket 5 1663510875 0 localhost 0
+28 8 01_FindTicket 5  0 0
+28 0 01_FindTicket 10 1663510875 0 localhost 0
+28 8 01_FindTicket 10  0 0
+28 4 02_Login 5 1663510875 0 02_Login localhost 0 1
+28 4 02_Login 10 1663510875 0 02_Login localhost 0 1
+28 2 01_FindTicket 10 1663510876 0 p 0 0
+28 4 04_NewUsr_plus_find_ticket 5 1663510876 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 10 1663510876 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 2 01_FindTicket 5 1663510876 0 p 0 0
+28 4 05_DeleteBooking 5 1663510876 0 05_DeleteBooking localhost 0 1
+28 0 03_BuyTicket 5 1663510876 0 localhost 0
+28 8 03_BuyTicket 5  0 0
+28 0 03_BuyTicket 6 1663510876 0 localhost 0
+28 8 03_BuyTicket 6  0 0
+28 2 03_BuyTicket 5 1663510876 0 p 0 0
+28 0 04_NewUsr_plus_find_ticket 10 1663510876 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 10  0 0
+28 2 04_NewUsr_plus_find_ticket 10 1663510876 0 p 0 0
+28 2 03_BuyTicket 6 1663510876 0 p 0 0
+28 0 04_NewUsr_plus_find_ticket 5 1663510876 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 5  0 0
+28 0 02_Login 10 1663510876 0 localhost 0
+28 8 02_Login 10  0 0
+28 0 02_Login 5 1663510876 0 localhost 0
+28 8 02_Login 5  0 0
+28 2 02_Login 5 1663510876 0 p 0 0
+28 2 02_Login 10 1663510876 0 p 0 0
+28 2 04_NewUsr_plus_find_ticket 5 1663510876 0 p 0 0
+28 0 03_BuyTicket 15 1663510876 0 localhost 0
+28 8 03_BuyTicket 15  0 0
+28 0 05_DeleteBooking 5 1663510876 0 localhost 0
+28 8 05_DeleteBooking 5  0 0
+28 2 05_DeleteBooking 5 1663510876 0 p 0 0
+28 2 03_BuyTicket 15 1663510876 0 p 0 0
+28 4 01_FindTicket 11 1663512194 0 01_FindTicket localhost 0 1
+28 4 01_FindTicket 12 1663512194 0 01_FindTicket localhost 0 1
+28 4 02_Login 11 1663512194 0 02_Login localhost 0 1
+28 4 02_Login 12 1663512194 0 02_Login localhost 0 1
+28 4 03_BuyTicket 16 1663512194 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 17 1663512194 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 18 1663512194 0 03_BuyTicket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 11 1663512194 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 12 1663512194 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 05_DeleteBooking 11 1663512194 0 05_DeleteBooking localhost 0 1
+28 0 01_FindTicket 11 1663512194 0 localhost 0
+28 8 01_FindTicket 11  0 0
+28 2 01_FindTicket 11 1663512194 0 p 0 0
+28 0 04_NewUsr_plus_find_ticket 12 1663512195 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 12  0 0
+28 0 01_FindTicket 12 1663512195 0 localhost 0
+28 8 01_FindTicket 12  0 0
+28 2 01_FindTicket 12 1663512195 0 p 0 0
+28 0 04_NewUsr_plus_find_ticket 11 1663512195 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 11  0 0
+28 2 04_NewUsr_plus_find_ticket 12 1663512195 0 p 0 0
+28 0 03_BuyTicket 16 1663512195 0 localhost 0
+28 8 03_BuyTicket 16  0 0
+28 0 05_DeleteBooking 11 1663512195 0 localhost 0
+28 8 05_DeleteBooking 11  0 0
+28 0 03_BuyTicket 17 1663512195 0 localhost 0
+28 8 03_BuyTicket 17  0 0
+28 0 03_BuyTicket 18 1663512195 0 localhost 0
+28 8 03_BuyTicket 18  0 0
+28 0 02_Login 11 1663512195 0 localhost 0
+28 8 02_Login 11  0 0
+28 2 04_NewUsr_plus_find_ticket 11 1663512195 0 p 0 0
+28 0 02_Login 12 1663512195 0 localhost 0
+28 8 02_Login 12  0 0
+28 2 03_BuyTicket 16 1663512195 0 p 0 0
+28 2 05_DeleteBooking 11 1663512195 0 p 0 0
+28 2 03_BuyTicket 17 1663512195 0 p 0 0
+28 2 03_BuyTicket 18 1663512196 0 p 0 0
+28 2 02_Login 11 1663512196 0 p 0 0
+28 2 02_Login 12 1663512196 0 p 0 0
+28 4 01_FindTicket 13 1663513514 0 01_FindTicket localhost 0 1
+28 4 01_FindTicket 14 1663513514 0 01_FindTicket localhost 0 1
+28 4 02_Login 13 1663513514 0 02_Login localhost 0 1
+28 4 02_Login 14 1663513514 0 02_Login localhost 0 1
+28 4 03_BuyTicket 19 1663513514 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 20 1663513514 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 21 1663513514 0 03_BuyTicket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 13 1663513514 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 14 1663513514 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 05_DeleteBooking 12 1663513514 0 05_DeleteBooking localhost 0 1
+28 0 02_Login 13 1663513515 0 localhost 0
+28 8 02_Login 13  0 0
+28 0 02_Login 14 1663513515 0 localhost 0
+28 8 02_Login 14  0 0
+28 0 01_FindTicket 14 1663513515 0 localhost 0
+28 8 01_FindTicket 14  0 0
+28 0 04_NewUsr_plus_find_ticket 13 1663513515 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 13  0 0
+28 0 03_BuyTicket 19 1663513515 0 localhost 0
+28 8 03_BuyTicket 19  0 0
+28 0 03_BuyTicket 20 1663513515 0 localhost 0
+28 8 03_BuyTicket 20  0 0
+28 0 03_BuyTicket 21 1663513515 0 localhost 0
+28 8 03_BuyTicket 21  0 0
+28 2 02_Login 13 1663513515 0 p 0 0
+28 0 05_DeleteBooking 12 1663513516 0 localhost 0
+28 8 05_DeleteBooking 12  0 0
+28 2 05_DeleteBooking 12 1663513516 0 p 0 0
+28 2 02_Login 14 1663513516 0 p 0 0
+28 2 01_FindTicket 14 1663513516 0 p 0 0
+28 2 04_NewUsr_plus_find_ticket 13 1663513516 0 p 0 0
+28 2 03_BuyTicket 19 1663513516 0 p 0 0
+28 2 03_BuyTicket 20 1663513517 0 p 0 0
+28 2 03_BuyTicket 21 1663513517 0 p 0 0
+28 0 04_NewUsr_plus_find_ticket 14 1663513517 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 14  0 0
+28 2 04_NewUsr_plus_find_ticket 14 1663513517 0 p 0 0
+28 0 01_FindTicket 13 1663513518 0 localhost 0
+28 8 01_FindTicket 13  0 0
+28 2 01_FindTicket 13 1663513518 0 p 0 0
+28 4 01_FindTicket 15 1663514834 0 01_FindTicket localhost 0 1
+28 4 01_FindTicket 16 1663514834 0 01_FindTicket localhost 0 1
+28 4 02_Login 15 1663514834 0 02_Login localhost 0 1
+28 4 02_Login 16 1663514834 0 02_Login localhost 0 1
+28 4 03_BuyTicket 22 1663514835 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 23 1663514835 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 24 1663514835 0 03_BuyTicket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 15 1663514835 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 16 1663514835 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 05_DeleteBooking 13 1663514835 0 05_DeleteBooking localhost 0 1
+28 0 01_FindTicket 15 1663514835 0 localhost 0
+28 8 01_FindTicket 15  0 0
+28 2 01_FindTicket 15 1663514835 0 p 0 0
+28 0 02_Login 15 1663514835 0 localhost 0
+28 8 02_Login 15  0 0
+28 2 02_Login 15 1663514835 0 p 0 0
+28 0 02_Login 16 1663514835 0 localhost 0
+28 8 02_Login 16  0 0
+28 2 02_Login 16 1663514835 0 p 0 0
+28 0 01_FindTicket 16 1663514835 0 localhost 0
+28 8 01_FindTicket 16  0 0
+28 0 03_BuyTicket 22 1663514835 0 localhost 0
+28 8 03_BuyTicket 22  0 0
+28 2 01_FindTicket 16 1663514835 0 p 0 0
+28 2 03_BuyTicket 22 1663514835 0 p 0 0
+28 0 03_BuyTicket 23 1663514835 0 localhost 0
+28 8 03_BuyTicket 23  0 0
+28 0 03_BuyTicket 24 1663514835 0 localhost 0
+28 8 03_BuyTicket 24  0 0
+28 0 04_NewUsr_plus_find_ticket 15 1663514835 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 15  0 0
+28 0 04_NewUsr_plus_find_ticket 16 1663514835 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 16  0 0
+28 2 03_BuyTicket 23 1663514835 0 p 0 0
+28 0 05_DeleteBooking 13 1663514835 0 localhost 0
+28 8 05_DeleteBooking 13  0 0
+28 2 03_BuyTicket 24 1663514836 0 p 0 0
+28 2 04_NewUsr_plus_find_ticket 15 1663514836 0 p 0 0
+28 2 04_NewUsr_plus_find_ticket 16 1663514836 0 p 0 0
+28 2 05_DeleteBooking 13 1663514836 0 p 0 0
+28 4 01_FindTicket 17 1663516155 0 01_FindTicket localhost 0 1
+28 4 01_FindTicket 18 1663516155 0 01_FindTicket localhost 0 1
+28 4 02_Login 17 1663516155 0 02_Login localhost 0 1
+28 4 02_Login 18 1663516155 0 02_Login localhost 0 1
+28 4 03_BuyTicket 25 1663516155 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 26 1663516155 0 03_BuyTicket localhost 0 1
+28 4 03_BuyTicket 27 1663516155 0 03_BuyTicket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 17 1663516155 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 04_NewUsr_plus_find_ticket 18 1663516155 0 04_NewUsr_plus_find_ticket localhost 0 1
+28 4 05_DeleteBooking 14 1663516155 0 05_DeleteBooking localhost 0 1
+28 0 01_FindTicket 17 1663516155 0 localhost 0
+28 8 01_FindTicket 17  0 0
+28 2 01_FindTicket 17 1663516155 0 p 0 0
+28 0 02_Login 18 1663516155 0 localhost 0
+28 8 02_Login 18  0 0
+28 0 04_NewUsr_plus_find_ticket 17 1663516155 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 17  0 0
+28 2 02_Login 18 1663516155 0 p 0 0
+28 2 04_NewUsr_plus_find_ticket 17 1663516155 0 p 0 0
+28 0 05_DeleteBooking 14 1663516155 0 localhost 0
+28 8 05_DeleteBooking 14  0 0
+28 2 05_DeleteBooking 14 1663516155 0 p 0 0
+28 0 04_NewUsr_plus_find_ticket 18 1663516156 0 localhost 0
+28 8 04_NewUsr_plus_find_ticket 18  0 0
+28 2 04_NewUsr_plus_find_ticket 18 1663516156 0 p 0 0
+28 0 01_FindTicket 18 1663516156 0 localhost 0
+28 8 01_FindTicket 18  0 0
+28 0 02_Login 17 1663516156 0 localhost 0
+28 8 02_Login 17  0 0
+28 2 02_Login 17 1663516156 0 p 0 0
+28 2 01_FindTicket 18 1663516156 0 p 0 0
+28 0 03_BuyTicket 26 1663516156 0 localhost 0
+28 8 03_BuyTicket 26  0 0
+28 0 03_BuyTicket 27 1663516156 0 localhost 0
+28 8 03_BuyTicket 27  0 0
+28 0 03_BuyTicket 25 1663516156 0 localhost 0
+28 8 03_BuyTicket 25  0 0
+28 2 03_BuyTicket 25 1663516156 0 p 0 0
+28 2 03_BuyTicket 27 1663516156 0 p 0 0
+28 2 03_BuyTicket 26 1663516156 0 p 0 0
+28 1 01_FindTicket 18 1663517475 0 2
+28 1 01_FindTicket 17 1663517475 0 2
+28 1 01_FindTicket 16 1663517475 0 2
+28 1 01_FindTicket 15 1663517475 0 2
+28 1 01_FindTicket 10 1663517475 0 2
+28 1 01_FindTicket 5 1663517475 0 2
+28 1 02_Login 10 1663517475 0 2
+28 1 02_Login 5 1663517475 0 2
+28 1 05_DeleteBooking 14 1663517475 0 2
+28 1 02_Login 15 1663517476 0 2
+28 1 02_Login 16 1663517476 0 2
+28 1 03_BuyTicket 6 1663517476 0 2
+28 1 03_BuyTicket 23 1663517480 0 2
+28 1 03_BuyTicket 15 1663517483 0 2
+28 1 01_FindTicket 14 1663517483 0 2
+28 1 05_DeleteBooking 13 1663517483 0 2
+28 1 01_FindTicket 13 1663517484 0 2
+28 1 02_Login 11 1663517487 0 2
+28 1 04_NewUsr_plus_find_ticket 11 1663517488 0 2
+28 1 02_Login 12 1663517488 0 2
+28 1 04_NewUsr_plus_find_ticket 16 1663517488 0 2
+28 1 05_DeleteBooking 12 1663517488 0 2
+28 1 03_BuyTicket 5 1663517489 0 2
+28 1 03_BuyTicket 20 1663517492 0 2
+28 1 03_BuyTicket 26 1663517492 0 2
+28 1 02_Login 17 1663517492 0 2
+28 1 04_NewUsr_plus_find_ticket 15 1663517492 0 2
+28 1 02_Login 18 1663517492 0 2
+28 1 03_BuyTicket 17 1663517493 0 2
+28 1 05_DeleteBooking 11 1663517493 0 2
+28 1 03_BuyTicket 25 1663517494 0 2
+28 1 02_Login 13 1663517494 0 2
+28 1 02_Login 14 1663517494 0 2
+28 1 05_DeleteBooking 5 1663517494 0 2
+28 1 04_NewUsr_plus_find_ticket 14 1663517496 0 2
+28 1 03_BuyTicket 18 1663517498 0 2
+28 1 04_NewUsr_plus_find_ticket 17 1663517499 0 2
+28 1 04_NewUsr_plus_find_ticket 13 1663517502 0 2
+28 1 03_BuyTicket 19 1663517504 0 2
+28 1 01_FindTicket 11 1663517504 0 2
+28 1 01_FindTicket 12 1663517504 0 2
+28 1 04_NewUsr_plus_find_ticket 12 1663517504 0 2
+28 1 04_NewUsr_plus_find_ticket 5 1663517508 0 2
+28 1 04_NewUsr_plus_find_ticket 10 1663517509 0 2
+28 1 03_BuyTicket 21 1663517509 0 2
+28 1 03_BuyTicket 16 1663517510 0 2
+28 1 03_BuyTicket 22 1663517513 0 2
+28 1 04_NewUsr_plus_find_ticket 18 1663517515 0 2
+28 1 03_BuyTicket 24 1663517515 0 2
+28 1 03_BuyTicket 27 1663517518 0 2
+28 12 1663517518 1 1663517518 0 1663517518

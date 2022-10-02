@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=C:\Users\AZ\Desktop\NT\Scenario\Maximum_search_test.lrs
+Completed=0

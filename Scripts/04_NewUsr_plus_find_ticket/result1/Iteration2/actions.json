@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP9",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t1.inf",
+                "time": 1662796691986
+            },
+            {
+                "stepId": "STEP10",
+                "stepName": "Url: login.pl",
+                "infFile": "t2.inf",
+                "time": 1662796697178
+            },
+            {
+                "stepId": "STEP11",
+                "stepName": "Submit Data: login.pl_2",
+                "infFile": "t3.inf",
+                "time": 1662796702387
+            },
+            {
+                "stepId": "STEP12",
+                "stepName": "Url: button_next.gif",
+                "infFile": "t4.inf",
+                "time": 1662796707696
+            },
+            {
+                "stepId": "STEP13",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t5.inf",
+                "time": 1662796712986
+            },
+            {
+                "stepId": "STEP14",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1662796718266
+            },
+            {
+                "stepId": "STEP15",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1662796723439
+            },
+            {
+                "stepId": "STEP16",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t8.inf",
+                "time": 1662796728690
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_home_page",
+                "rawStartTime": 1662796691663,
+                "rawEndTime": 1662796691990,
+                "thinkTime": 0.0,
+                "wastedTime": 0.01843547821044922
+            },
+            {
+                "transactionName": "click_sign_up_now",
+                "rawStartTime": 1662796692006,
+                "rawEndTime": 1662796697191,
+                "thinkTime": 5.013116,
+                "wastedTime": 0.014356613159179688
+            },
+            {
+                "transactionName": "data_usr",
+                "rawStartTime": 1662796697207,
+                "rawEndTime": 1662796702394,
+                "thinkTime": 5.01495,
+                "wastedTime": 0.015561580657958985
+            },
+            {
+                "transactionName": "welcome_new_usr",
+                "rawStartTime": 1662796702410,
+                "rawEndTime": 1662796707707,
+                "thinkTime": 5.015042,
+                "wastedTime": 0.02549886703491211
+            },
+            {
+                "transactionName": "click_flights",
+                "rawStartTime": 1662796707722,
+                "rawEndTime": 1662796713003,
+                "thinkTime": 5.014938,
+                "wastedTime": 0.020630598068237306
+            },
+            {
+                "transactionName": "find_ticket",
+                "rawStartTime": 1662796713018,
+                "rawEndTime": 1662796718268,
+                "thinkTime": 5.015091,
+                "wastedTime": 0.017192840576171876
+            },
+            {
+                "transactionName": "choice_ticket",
+                "rawStartTime": 1662796723315,
+                "rawEndTime": 1662796723455,
+                "thinkTime": 0.0,
+                "wastedTime": 0.011565446853637696
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1662796723471,
+                "rawEndTime": 1662796728705,
+                "thinkTime": 5.014972,
+                "wastedTime": 0.01584458351135254
+            },
+            {
+                "transactionName": "04_NewUsr",
+                "rawStartTime": 1662796691647,
+                "rawEndTime": 1662796728720,
+                "thinkTime": 35.103206,
+                "wastedTime": 0.13908600807189942
+            }
+        ]
+    }
+]

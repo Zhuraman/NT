@@ -1,0 +1,50 @@
+﻿[SLASupervisor_BasicInfo]
+NumFilters=2
+
+[AdditionalFilter0]
+DimensionType=Discrete
+InternalDimName=Event Name
+Dimension=Transaction Name
+EqualFlag=1
+DimensionTableName=Event_map
+NumValues=17
+UseEscapeSequence=1
+DimCount=17
+Dim_0=01_FindTicket
+Dim_1=02_Login
+Dim_2=03_BuyTicket
+Dim_3=04_NewUsr_plus_find_ticket
+Dim_4=05_DeleteBooking
+Dim_5=buy_ticket
+Dim_6=choice_ticket
+Dim_7=click_flights
+Dim_8=click_Itinerary
+Dim_9=click_sign_up_now
+Dim_10=data_usr
+Dim_11=delete_booking
+Dim_12=find_ticket
+Dim_13=login
+Dim_14=logout
+Dim_15=open_home_page
+Dim_16=welcome_new_usr
+LikeMode=0
+
+[AdditionalFilter1]
+DimensionType=Continuous
+InternalDimName=End Time
+Dimension=Scenario Elapsed Time
+EqualFlag=1
+DimensionTableName=Event_meter
+NumValues=1
+DimCount=2
+Dim_0=360.000000
+Dim_1=3960.000000
+
+[DimensionFunctions]
+DimeFuncCount=1
+DimeFuncType0=FuncFragment
+FunctionName_UI0=Think Time
+DimensionName_UI0=Transaction Response Time,Aminimum,Amaximum
+FunctionFragmentValues_UI0=-Include Think Time
+DimensionFragmentValues_UI0=!([Value]-[Think Time])!,!([Aminimum]-[Think Time])!,!([Amaximum]-[Think Time])!
+
